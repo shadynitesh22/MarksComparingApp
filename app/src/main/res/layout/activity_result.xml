@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:background="@color/design_default_color_error"
+    tools:context=".ResultActivity">
+
+
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginBottom="5dp"
+        android:background="@color/teal_700"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RankHolder % and Name"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+
+
+        />
+    <TextView
+        android:id="@+id/secondperc"
+        android:layout_marginBottom="5dp"
+        android:background="@color/teal_700"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Second position and %"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+
+        />
+
+    <TextView
+        android:id="@+id/thridperc"
+        android:layout_marginBottom="5dp"
+        android:background="@color/teal_700"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:text="Third position and % "
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+
+
+        />
+    <TextView
+        android:layout_marginTop="2dp"
+
+        android:background="@color/cardview_dark_background"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Highest Marks In Android"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+        android:textColor="@color/white"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:id="@+id/androidfirst"
+        android:layout_marginBottom="5dp"
+        android:background="@color/teal_700"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="First highest marks and student name"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+
+        />
+    <TextView
+        android:id="@+id/androidsecond"
+        android:layout_marginBottom="5dp"
+        android:background="@color/teal_700"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Highest marks and student name"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+
+        />
+    <TextView
+        android:id="@+id/androidthrid"
+        android:layout_marginBottom="5dp"
+        android:background="@color/teal_700"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Third highest marks and student name"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-black"
+
+        />
+
+
+
+</LinearLayout>

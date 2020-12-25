@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Marks"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:fontFamily="cursive"
+
+        />
+    <EditText
+        android:id="@+id/studentid"
+        android:layout_marginBottom="5dp"
+        android:background="@color/teal_700"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student Id"
+
+        />
+    <EditText
+        android:id="@+id/name"
+        android:layout_marginBottom="5dp"
+        android:background="@color/teal_700"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student Name"
+
+        />
+
+    <EditText
+        android:id="@+id/marksA"
+        android:layout_marginBottom="5dp"
+        android:background="@color/teal_700"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter Android Marks"
+
+        />
+    <EditText
+        android:id="@+id/marksP"
+        android:layout_marginBottom="5dp"
+        android:background="@color/teal_700"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Api Marks"
+        android:inputType="number"
+
+        />
+    <EditText
+        android:id="@+id/Iotmarks"
+        android:layout_marginBottom="5dp"
+        android:background="@color/teal_700"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter IOT Id"
+        android:inputType="number"
+
+        />
+        <Button
+            android:onClick="Onclick"
+            android:id="@+id/addtolist"
+            android:backgroundTint="@color/teal_700"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add to List"
+            android:layout_gravity="center"
+
+
+            />
+
+</LinearLayout>
